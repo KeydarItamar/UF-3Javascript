@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+</head>
+<body>
+    <h1>Formulario Practica 02 - Itamar</h1>
+    <form id="registrationForm">
+        <div>
+            <label for="username">Nombre de Usuario:</label>
+            <input type="text" id="username" name="username">
+            <br>
+            <span id="usernameError" class="error"></span>
+        </div>
+        <div>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <span id="emailError" class="error"></span>
+        </div>
+        <div>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <span id="passwordError" class="error"></span>
+        </div>
+        <div>
+            <label for="confirmPassword">Confirmar Contraseña:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword">
+            <br>
+            <span id="confirmPasswordError" class="error"></span>
+        </div>
+        <div>
+            <label for="address">Dirección Postal:</label>
+            <input type="text" id="address" name="address">
+            <br>
+            <span id="addressError" class="error"></span>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
