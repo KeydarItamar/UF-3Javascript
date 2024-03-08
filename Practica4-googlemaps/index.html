@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwEQr8flR0CtMZ-
+    jSs9hK8lscYUMOtVPk&callback=initMap" async defer></script>
+    <title>Document</title>
+</head>
+<body onload="initMap()">
+    <div id="map"></div>
+    <input type="text" name="adreca" value="Carrer de la Selva de Mar 211 08020 Barcelona" placeholder="Introduce una direccion" id="adreca"/>
+    <button type="button" class="btn btn-secondary" id="findLoc" onclick="findLocation()">Buscar adreça</button>
+    <button type="button" class="btn btn-secondary" id="boton2">pulsame</button>
+    <br>
+    <input type="text" name="lat" value="" id="latitude" placeholder="lat"/>
+    <input type="text" name="lng" value="" id="longitude" placeholder="lng"/>
+    </body>
+    <script src="main.js">
+    </script>
+
+</html>
